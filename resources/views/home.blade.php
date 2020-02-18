@@ -21,8 +21,6 @@
                         </div>
                     @endif
 
-                    <!--ダウンロードボタン-->
-
                 </div>
             </div>
         </div>
@@ -42,10 +40,10 @@
                             
                             <form method="download" action="{{ route('download') }}">
                             <div class="btn-outline-primary">
-                            <!--<button type='download' class="btn btn-outline-primary">-->
+                           
                              @foreach ($name as $files)
                @endforeach
-               <a class="btn btn-outline-primary" href="{{('$name.pdf')}}" download>ダウンロードする</a>
+               <a class="btn btn-outline-primary" href="{{'$filePath.pdf'}}" download>ダウンロードする</a>
                                      <!--{{ __('ダウンロードする') }}     -->
                             <!--</button>-->
                             

@@ -11,7 +11,8 @@ class DownloadController extends Controller
     public function index(){
     $file_name = $request->file('file');
 
-$request->file('file')->store('public');
+// $request->file('file')->store('public[image]');
+
 }
       
     }
