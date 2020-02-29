@@ -27,8 +27,12 @@ class HomeController extends Controller
     //   ddd($files);
 
     return view('home', ['name' => $files]);
-    
+        // return view('home', $files);
+        
+
     //   return view('home');
+
+   
 }
 
      
