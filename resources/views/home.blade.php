@@ -14,10 +14,10 @@
                    <img class="img" src="{{ secure_asset('/icon_1r_96.png')}}" alt="logo" width=96px height="96px">
                    <?php 
                    $path=$name[$key]->file_name;
-                  var_dump($path);
+                //   var_dump($path);
                    ?>
                     <!--<a href="/storage/1100_laravel.pdf" download>download</a>;-->
-                 <a href="storage/{{$path}}" download>download</a>;
+                 <a href="storage/{{$path}}" download>download</a>
                  
 
                    <!--<?php print '<a href="'.$path.'" download>download</a>'; ?>-->
