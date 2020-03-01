@@ -17,7 +17,7 @@
                   var_dump($path);
                    ?>
                     <!--<a href="/storage/1100_laravel.pdf" download>download</a>;-->
-                 <a href=/storage/{{$path}} download>download</a>;
+                 <a href=/storage/{{$path}} download=https://sgmn531.lolipop.io/>download</a>;
 
                    <!--<?php print '<a href="'.$path.'" download>download</a>'; ?>-->
                    
