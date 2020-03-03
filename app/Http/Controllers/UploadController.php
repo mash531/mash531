@@ -25,7 +25,7 @@ class UploadController extends Controller
         // $target =  $file->getClientOriginalName();
 
         // ddd($file_name);
-    	$path = $request->file('upload_file')->storeAs('home/ubuntu/environment/project01/storage/',$file_name);
+    	$path = $request->file('upload_file')->storeAs('/public',$file_name);
     	
     	// DBにファイル名とpathをほぞん
     	\App\FileUpload::create([
