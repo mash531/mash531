@@ -11,8 +11,8 @@
     
     @foreach ($name as $key=>$files){
                     <?php echo('<pre>'); var_dump($name[$key]->file_name); echo('</pre>');  ?>
-                   <img class="img" src="{{ asset('storage/icon_1r_96.png')}}" alt="logo" width=96px height="96px">
-                   <?php 
+                   <img class="img" src="{{ asset('/icon_1r_96.png')}}" alt="logo" width=96px height="96px">
+                  <?php 
                    $path=$name[$key]->file_name;
                 //   var_dump($path);
                    ?>
